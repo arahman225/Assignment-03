@@ -13,6 +13,7 @@
           }
       </style>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
@@ -36,7 +37,7 @@
 </head>
 <body class="font-Manrope">
     <section class="bg-gradient-to-t from-white to-gray-100">
-    <header class="container mx-auto">
+    <header class="w-5/6 mx-auto">
         <nav class="flex justify-between items-center pt-10">
             <h3 class="text-3xl font-bold flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 inline-block bg-primarycolor p-2 rounded-full">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -79,19 +80,20 @@
     </div>
 </section>
 <!-- main section start -->
+ <!-- about section start -->
   <section class="py-16 bg-gray-100">
     <div class="w-5/6 mx-auto">
-      <div class="bg-white rounded-3xl inline-block py-1 px-3">
-        <h3 class="flex items-center font-bold"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-        </svg>
-        About Us</h3>
+      <img class="-ml-6" src="assets/icons/Vector.png" alt="">
+      <div class="lg:text-left text-center">
+        <h3 class="bg-white rounded-3xl py-1 px-3 inline-block"><i class="fa fa-long-arrow-right"></i>About Us</h3>
       </div>
       <div class="grid lg:grid-cols-2 gap-6">
         <div class="space-y-8">
+          <div class="lg:text-left text-center space-y-7">
           <h2 class="text-5xl font-bold leading-normal">We design thoughtful, liveable spaces</h2>
           <p>
             We create spaces that blend functionality with beauty, ensuring each design is both practical and inspiring. Our thoughtful approach crafts environments </p>
+          </div>
             <div class="flex items-center justify-center bg-white rounded-xl p-4 mt-5">
               <div class="w-32">
                 <img src="assets/icons/commercial.png" alt="">
@@ -117,6 +119,50 @@
       </div>
     </div>
   </section>
+ <!-- about section end -->
+  <!-- works progress section start -->
+
+  <section class="py-16 bg-gray-100">
+    <div class="w-5/6 mx-auto">
+      <div class="text-center space-y-5 mb-8">
+        <h4 class="bg-white p-2 rounded-2xl inline-block"><i class="fa fa-long-arrow-right"></i>How We Work</h4>
+        <h2 class="text-4xl">Our Works Process</h2>
+        <p>Our work process involves collaboration, creativity, and precision, guiding each project from <br> concept to completion with meticulous attention to detail.</p>
+      </div>
+      <div class="grid lg:grid-cols-4 gap-5">
+        <div class="bg-light-tomato p-5 rounded-2xl">
+          <div class="col space-y-5">
+            <img src="assets/icons/concept.png" alt="">
+            <h3 class="text-xl font-bold">Concept</h3>
+            <p>Our concepts are rooted in innovative ideas, blending creativity and functionality to craft unique spaces that inspire and captivate.</p>
+          </div>
+        </div>
+        <div class="bg-light-yellow p-5 rounded-2xl">
+          <div class="col space-y-5">
+            <img src="assets/icons/flow-chart.png" alt="">
+            <h3 class="text-xl font-bold">Design Process</h3>
+            <p>Our concepts are rooted in innovative ideas, blending creativity and functionality to craft unique spaces that inspire and captivate.</p>
+          </div>
+        </div>
+        <div class="bg-light-green p-5 rounded-2xl">
+          <div class="col space-y-5">
+            <img src="assets/icons/vision.png" alt="">
+            <h3 class="text-xl font-bold">Supervision</h3>
+            <p>Our concepts are rooted in innovative ideas, blending creativity and functionality to craft unique spaces that inspire and captivate.</p>
+          </div>
+        </div>
+        <div class="bg-light-blue p-5 rounded-2xl">
+          <div class="col space-y-5">
+            <img src="assets/icons/budget-planning.png" alt="">
+            <h3 class="text-xl font-bold">Budget Planning</h3>
+            <p>Our concepts are rooted in innovative ideas, blending creativity and functionality to craft unique spaces that inspire and captivate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- works progress section end -->
 <!-- main section end -->
 </body>
 </html>
