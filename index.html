@@ -34,6 +34,10 @@
             'rounded-100': '100px',
             
                 },
+                backgroundImage: {
+        'hero-pattern': "url('assets/icons/bg.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
               },
             },
           }
@@ -182,7 +186,7 @@
 
         <div class="grid lg:grid-cols-3 gap-5">
           <div class="lg:col-span-2">
-            <div class="lg:flex items-center p-6 border rounded-xl shadow-lg gap-5 space-y-6">
+            <div class="lg:flex items-center p-6 border rounded-xl shadow-lg gap-5">
               <div class="w-full">
                 <img class="mx-auto  max-sm:w-full p-0" src="assets/images/img1.png" alt="">
               </div>
@@ -206,13 +210,13 @@
 <!-- second card start -->
 
         <div class="grid lg:grid-cols-5 gap-5 mt-5">
-          <div class="lg:flex items-center justify-center border p-6 rounded-xl shadow-xl">
+          <div class="flex items-center justify-center border p-2 rounded-xl shadow-xl">
             <div class="w-full">
               <img class=" max-sm:w-full" src="assets/images/img3.png" alt="">
             </div>
           </div>
           <div class="lg:col-span-3">
-            <div class="lg:flex items-center p-6 border rounded-xl shadow-lg gap-5 space-y-6">
+            <div class="lg:flex items-center p-6 border rounded-xl shadow-lg gap-5">
               <div class="w-full">
                 <img class="w-full" src="assets/images/img4.png" alt="">
               </div>
@@ -225,18 +229,57 @@
               </div>
             </div>
           </div>
-          <div class="flex items-center border p-6 rounded-xl shadow-xl">
+          <div class="flex items-center border p-2 rounded-xl shadow-xl">
             <div class="w-full">
               <img class="w-full" src="assets/images/img5.png" alt="">
             </div>
           </div>
         </div>
-
 <!-- second card end -->
 
       </div>
     </section>
    <!-- Our latest works section end -->
+
+    <section class="py-16 bg-hero-pattern bg-cover bg-center">
+      <div class="w-4/6 mx-auto">
+        <div class="text-center space-y-5 mb-6">
+          <h4 class="bg-primarycolor inline-block p-1 px-4 rounded-6xl"><i class="fa fa-long-arrow-right"></i> Let’s Connect</h4>
+          <h2 class="lg:text-5xl md:text-3xl font-extrabold">Let’s Discuss Next Project</h2>
+          <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div>
+            <form action="">
+              <div class="grid lg:grid-cols-2 gap-5 mb-7">
+                <div>
+                  <input class="w-full p-3 rounded-full" type="text" id="fname" name="FirstName" placeholder="First Name" required>
+                </div>
+                <div>
+                  <input class="w-full p-3 rounded-full" type="text" id="fname" name="LastName" placeholder="Last Name" required>
+                </div>
+                <div>
+                  <input class="w-full p-3 rounded-full" type="text" id="Phone Number" name="LastName" placeholder="Phone Number" required>
+                </div>
+                <div>
+                  <input class="w-full p-3 rounded-full" type="text" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="space-y-4">
+                <div>
+                  <textarea class="w-full rounded-xl p-2" id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
+                </div>
+                <div class="text-center">
+                  <button class="bg-primarycolor w-full p-2 text-xl font-bold rounded-full">Send Mail <i class="-rotate-45 bg-black text-white rounded-full p-1 fa fa-long-arrow-right"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+    </section>
+
+
 <!-- main section end -->
+
+<!-- Foo -->
 </body>
 </html>
