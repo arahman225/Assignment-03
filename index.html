@@ -35,35 +35,29 @@
             
                 },
                 backgroundImage: {
-        'hero-pattern': "url('assets/icons/bg.jpg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'footer-img': "url('assets/icons/bg.jpg')",
       }
               },
             },
           }
     </script>
 
-    <style>
-      h2{
-        columns: #acef5f98;
-      }
-    </style>
 
 </head>
 <body class="font-Manrope">
     <section class="bg-gradient-to-t from-white to-gray-100">
     <header class="w-5/6 mx-auto">
-        <nav class="flex justify-between items-center pt-10">
+        <nav class="flex justify-between items-center pt-10" id="#home">
             <h3 class="text-3xl font-bold flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 inline-block bg-primarycolor p-2 rounded-full">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
               Rinterio</h3>
-              <ul class="flex space-x-6 justify-center max-sm:hidden">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Testimony</a></li>
-                <li><a href="#">Contact Us</a></li>
+              <ul class="flex space-x-6 justify-center max-sm:hidden text-gray-500">
+                <li class="text-black"><a href="#home">Home</a></li>
+                <li class="hover:text-black"><a href="#service">Services</a></li>
+                <li class="hover:text-black"><a href="#portfolio">Portfolio</a></li>
+                <li class="hover:text-black"><a href="#testimony">Testimony</a></li>
+                <li class="hover:text-black"><a href="#contact">Contact Us</a></li>
               </ul>
               <div class="flex space-x-5 items-center max-sm:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-2 bg-white rounded-full">
@@ -96,7 +90,7 @@
 </section>
 <!-- main section start -->
  <!-- about section start -->
-  <section class="py-16 bg-gray-100">
+  <section class="py-16 bg-gray-100" id="service">
     <div class="w-5/6 mx-auto">
       <img class="-ml-6" src="assets/icons/Vector.png" alt="">
       <div class="lg:text-left text-center">
@@ -180,7 +174,7 @@
   <!-- works progress section end -->
    <!-- Our latest works section start -->
 
-    <section class="py-16">
+    <section class="py-16" id="portfolio">
       <div class="w-5/6 mx-auto">
         <div class="text-center space-y-5 mb-6">
           <h4 class="bg-primarycolor inline-block p-1 px-4 rounded-6xl"><i class="fa fa-long-arrow-right"></i> Explore our Latest works</h4>
@@ -249,7 +243,7 @@
 
 <!-- Our Testimony section start -->
 
-    <section class="py-20 bg-gray-100">
+    <section class="py-20 bg-gray-100" id="testimony">
       <div class="w-5/6 mx-auto">
         <div class="text-center space-y-5 mb-8">
           <h4 class="bg-primarycolor inline-block p-1 px-4 rounded-6xl"><i class="fa fa-long-arrow-right"></i> Let’s Connect</h4>
@@ -300,7 +294,7 @@
 
 <!-- Our Testimony section end -->
 
-    <section class="py-16 bg-hero-pattern bg-cover bg-center">
+    <section class="py-16 bg-footer-img bg-cover bg-center" id="contact">
       <div class="w-4/6 mx-auto">
         <div class="text-center space-y-5 mb-6">
           <h4 class="bg-primarycolor inline-block p-1 px-4 rounded-6xl"><i class="fa fa-long-arrow-right"></i> Let’s Connect</h4>
